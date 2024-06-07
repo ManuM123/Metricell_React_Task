@@ -13,7 +13,7 @@ namespace InterviewTestBasic
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run(); // entry point of application
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
